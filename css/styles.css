@@ -61,21 +61,49 @@ article {
 
 ul {
     list-style-type: none;
-    padding: 0;
-    
 }
 
-li {
-    font-size: 1.2em;
-    padding: 8px;
-    display: flex;
-    align-items: center;
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
 }
 
-li i {
-    margin-right: 10px;
-    font-size: 1.5em;
+ul li i {
+    margin-right: 8px;
 }
+
+ul li .fa-html5 {
+    color: #e34c26;
+}
+
+ul li .fa-css3-alt {
+    color: #1572b6;
+}
+
+ul li .fa-js-square {
+    color: #f7df1e;
+}
+
+ul li .fa-github {
+    color: #211F1F;
+}
+
+ul li .fa-visual-studio-code {
+    color: #0066b8;
+}
+
+ul li .fa-database {
+    color: #00758f;
+}
+
+ul li .fa-wordpress {
+    color: #21759b;
+}
+
+ul li .fa-database {
+    color: #00618d;
+}
+
 
 a {
     color: #12b9cf;
