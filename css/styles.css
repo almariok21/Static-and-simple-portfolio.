@@ -106,8 +106,8 @@ ul li .fa-database {
 
 
 a {
-    color: #12b9cf;
-}
+    text-decoration: none;
+   }
 
 aside {
     background-color: #e9ecef;
@@ -155,25 +155,29 @@ header {
     object-fit: cover; 
 }
 
-button {
-    
-    color: rgb(0, 0, 0); 
-    font-size: 1rem; 
-    padding: 10px 20px; 
-    margin: 10px; 
-    border: solid 1px; 
-    border-radius: 5px; 
+button{
+    background-color: #2a2b2a;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
     cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  button:hover {
+    box-shadow: #a6b3ab59 0 -25px 18px -14px inset,#a6b3ab59 0 1px 2px,#a6b3ab59 2px 4px,#a6b3ab59 0 4px 8px,#a6b3ab59 0 8px 16px,#a6b3ab59 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
 
-}
 
-button:hover {
-    background-color: #e2ebf3; 
-    transform: translateY(-2px); 
-}
-
-
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     h1 {
         font-size: 2rem; 
     }
