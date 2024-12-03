@@ -1,0 +1,206 @@
+@counter-style thumbs {
+    system: cyclic;
+    symbols: "\2713";
+    suffix: " ";
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+h1, h2, header  {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+header {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0 15px;
+}
+
+strong {
+    color: #2d3e50;
+}
+
+section, article {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+ul li i {
+    margin-right: 8px;
+}
+
+ul li .fa-html5 {
+    color: #e34c26;
+}
+
+ul li .fa-css3-alt {
+    color: #1572b6;
+}
+
+ul li .fa-js-square {
+    color: #f7df1e;
+}
+
+ul li .fa-github {
+    color: #211F1F;
+}
+
+ul li .fa-visual-studio-code {
+    color: #0066b8;
+}
+
+ul li .fa-database {
+    color: #00758f;
+}
+
+ul li .fa-wordpress {
+    color: #21759b;
+}
+
+ul li .fa-database {
+    color: #00618d;
+}
+
+
+a {
+    text-decoration: none;
+   }
+
+aside {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+aside header {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #12b9cf;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+header {
+    position: relative; 
+    text-align: center;
+    padding: 20px;
+}
+
+.perfil-imagen {
+    position: absolute; 
+    top: 150px; 
+    right: 120px; 
+    width: 160px; 
+    height: 160px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    
+}
+
+button{
+    background-color: #2a2b2a;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    touch-action: manipulation;
+  }
+  
+  button:hover {
+    box-shadow: #a6b3ab59 0 -25px 18px -14px inset,#a6b3ab59 0 1px 2px,#a6b3ab59 2px 4px,#a6b3ab59 0 4px 8px,#a6b3ab59 0 8px 16px,#a6b3ab59 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+
+@media (max-width: 760px) {
+    h1 {
+        font-size: 2rem; 
+    }
+
+    h2 {
+        font-size: 1.5rem; 
+    }
+
+    p {
+        font-size: 1rem; 
+    }
+
+    ul li {
+        font-size: 1rem; 
+    }
+
+    .perfil-imagen {
+        display: none; 
+    }
+    button {
+        width: 100%; 
+        font-size: 1.2rem; 
+        padding: 12px 0; 
+        margin: 8px 0; 
+    }
+}
